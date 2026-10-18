@@ -1,0 +1,24 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+.idea/
+.vscode/
+
+# Local config with real values (see lib/config/api_config.example.dart)
+lib/config/api_config.dart
+
+# Android signing / local files
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# Python (backend)
+__pycache__/
+*.pyc
+.env
+.venv/
