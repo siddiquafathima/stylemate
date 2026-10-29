@@ -7,13 +7,17 @@ Photograph your clothes once, let AI tag them, and get outfit suggestions made o
 ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?logo=googlegemini&logoColor=white)
-![Railway](https://img.shields.io/badge/Deployed%20on-Railway-0B0D0E?logo=railway&logoColor=white)
+![Render](https://img.shields.io/badge/Backend-Render-46E3B7?logo=render&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 
 | | |
 |---|---|
-| **Live backend (Railway)** | `<RAILWAY_URL>` &nbsp;(health check: `<RAILWAY_URL>/health`) |
-| **Download APK** | `<APK_LINK>` |
+| **Promotional video** | [Watch on Google Drive](https://drive.google.com/file/d/1FJTosp79Z4_B0BIziI7yN6vcQDackb0C/view?usp=drivesdk) |
+| **AI backend (Render)** | https://stylemate-ai-g4ho.onrender.com (health check: [`/health`](https://stylemate-ai-g4ho.onrender.com/health)) |
+| **Source code** | [siddiquafathima/stylemate](https://github.com/siddiquafathima/stylemate) |
+
+> The backend runs on Render's free tier and sleeps after 15 minutes without traffic. The first AI request after a
+> pause can take about a minute; opening the `/health` link first wakes it up.
 
 ---
 
@@ -47,36 +51,32 @@ StyleMate turns a physical wardrobe into a searchable digital one:
 
 ## Screenshots
 
-> Screenshots live in [`docs/screenshots/`](docs/screenshots). File names must match the ones below.
+Captured on a physical Android 15 phone.
 
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/01-splash.png" width="190"><br><sub>Splash</sub></td>
-    <td align="center"><img src="docs/screenshots/02-login-signup.png" width="190"><br><sub>Login / Sign up</sub></td>
-    <td align="center"><img src="docs/screenshots/03-personalize.png" width="190"><br><sub>Personalize (gender sets theme)</sub></td>
-    <td align="center"><img src="docs/screenshots/04-home.png" width="190"><br><sub>Home</sub></td>
+    <td><img width="180" alt="StyleMate screenshot 1" src="https://github.com/user-attachments/assets/7e2d0722-8db9-4d5a-a192-1a9c53a39a4b" /></td>
+    <td><img width="180" alt="StyleMate screenshot 2" src="https://github.com/user-attachments/assets/45fa9485-afb4-4bb0-832a-fa528aac437a" /></td>
+    <td><img width="180" alt="StyleMate screenshot 3" src="https://github.com/user-attachments/assets/55259207-4443-4e08-bb99-15798bc1a507" /></td>
+    <td><img width="180" alt="StyleMate screenshot 4" src="https://github.com/user-attachments/assets/0af8c878-2dba-4722-8a84-515816e75f6b" /></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/05-add-clothing.png" width="190"><br><sub>Add clothing with AI tags</sub></td>
-    <td align="center"><img src="docs/screenshots/06-wardrobe.png" width="190"><br><sub>Wardrobe</sub></td>
-    <td align="center"><img src="docs/screenshots/07-what-to-wear.png" width="190"><br><sub>What should I wear? + outfit board</sub></td>
-    <td align="center"><img src="docs/screenshots/08-ask-stylemate.png" width="190"><br><sub>Ask StyleMate</sub></td>
+    <td><img width="180" alt="StyleMate screenshot 5" src="https://github.com/user-attachments/assets/5cca665c-e8dc-48d7-9b96-a741b70332b0" /></td>
+    <td><img width="180" alt="StyleMate screenshot 6" src="https://github.com/user-attachments/assets/87cea404-af7b-4423-9599-b438a6b5bcbc" /></td>
+    <td><img width="180" alt="StyleMate screenshot 7" src="https://github.com/user-attachments/assets/062c8191-4299-48d8-a4c0-ad8c8b560c48" /></td>
+    <td><img width="180" alt="StyleMate screenshot 8" src="https://github.com/user-attachments/assets/b90ebfab-7dca-44b9-b82b-19d7e24eeff1" /></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/09-calendar.png" width="190"><br><sub>Style calendar</sub></td>
-    <td align="center"><img src="docs/screenshots/10-analytics.png" width="190"><br><sub>Analytics</sub></td>
-    <td align="center"><img src="docs/screenshots/11-create-outfit.png" width="190"><br><sub>Create outfit</sub></td>
-    <td align="center"><img src="docs/screenshots/12-profile.png" width="190"><br><sub>Profile</sub></td>
+    <td><img width="180" alt="StyleMate screenshot 9" src="https://github.com/user-attachments/assets/bffccf20-db75-4ad2-9352-a7866b6c0140" /></td>
+    <td><img width="180" alt="StyleMate screenshot 10" src="https://github.com/user-attachments/assets/7faeae33-6e7b-45af-aecf-4b30658d1f77" /></td>
+    <td><img width="180" alt="StyleMate screenshot 11" src="https://github.com/user-attachments/assets/db85af51-9713-4cea-a88c-25b55a7bb304" /></td>
+    <td><img width="180" alt="StyleMate screenshot 12" src="https://github.com/user-attachments/assets/d4eb1a63-5fb6-4393-a77c-3c22f6eceb7b" /></td>
   </tr>
-</table>
-
-**Three themes, chosen by the user at sign-up**
-
-<table>
   <tr>
-    <td align="center"><img src="docs/screenshots/theme-pink.png" width="190"><br><sub>Pink</sub></td>
-    <td align="center"><img src="docs/screenshots/theme-blue-black.png" width="190"><br><sub>Blue &amp; Black</sub></td>
-    <td align="center"><img src="docs/screenshots/theme-beige.png" width="190"><br><sub>Beige (neutral)</sub></td>
+    <td><img width="180" alt="StyleMate screenshot 13" src="https://github.com/user-attachments/assets/c3cb3a72-9773-4892-9ea4-6633a25a9563" /></td>
+    <td><img width="180" alt="StyleMate screenshot 14" src="https://github.com/user-attachments/assets/1dd05cfc-76e1-4d5e-9fd3-2a598ed8bd70" /></td>
+    <td><img width="180" alt="StyleMate screenshot 15" src="https://github.com/user-attachments/assets/709c171d-963e-4528-8bfa-6a4962429d13" /></td>
+    <td><img width="180" alt="StyleMate screenshot 16" src="https://github.com/user-attachments/assets/85411b4d-42fe-4b2d-91f3-dd75936613c2" /></td>
   </tr>
 </table>
 
@@ -84,7 +84,7 @@ StyleMate turns a physical wardrobe into a searchable digital one:
 
 **Accounts**
 - Sign up / log in with email-format and common-typo checks (for example `gmail.coom`), live password-match indicator and show/hide password.
-- Session is remembered; each account's data is stored separately on the device.
+- The session is remembered; each account's data is stored separately on the device.
 
 **Digital wardrobe**
 - Add items from the camera or gallery.
@@ -122,14 +122,14 @@ Design choices that keep the output trustworthy:
 
 ```mermaid
 flowchart LR
-    A["Flutter app (Android)"] -->|"HTTPS + app token"| B["FastAPI proxy on Railway"]
+    A["Flutter app (Android)"] -->|"HTTPS + app token"| B["FastAPI proxy on Render"]
     B -->|"API key kept server-side"| C["Google Gemini API"]
     A --> D[("On-device storage<br/>SharedPreferences")]
     A --> E["Open-Meteo<br/>weather"]
 ```
 
-The Gemini API key and the model name live **only** on the backend (Railway environment variables), so the key is
-never shipped inside the APK and the model can be changed without rebuilding the app. Wardrobe data stays on the device.
+The Gemini API key and the model name live **only** on the backend (Render environment variables), so the key is
+never shipped inside the app and the model can be changed without rebuilding it. Wardrobe data stays on the device.
 
 ## Tech stack
 
@@ -138,7 +138,7 @@ never shipped inside the APK and the model can be changed without rebuilding the
 | App | Flutter, Dart |
 | State management | Provider |
 | AI | Google Gemini API (default model `gemini-3.5-flash-lite`, set on the server) |
-| Backend | FastAPI, httpx, Uvicorn, deployed on Railway |
+| Backend | FastAPI, httpx, Uvicorn, deployed on Render |
 | Local storage | SharedPreferences (JSON, scoped per user) |
 | Weather | Open-Meteo (forecast + geocoding), ipapi.co / ipwho.is for approximate location, manual city override |
 | Charts | fl_chart |
@@ -150,10 +150,9 @@ never shipped inside the APK and the model can be changed without rebuilding the
 
 ```
 stylemate/
-├── backend/                 # FastAPI AI proxy (deployed on Railway)
+├── backend/                 # FastAPI AI proxy (deployed on Render)
 │   ├── main.py
-│   ├── requirements.txt
-│   └── Procfile
+│   └── requirements.txt
 ├── lib/
 │   ├── config/              # api_config.dart (git-ignored) and api_config.example.dart
 │   ├── models/              # UserModel, ClothingItem, Outfit, CalendarEntry
@@ -163,7 +162,6 @@ stylemate/
 │   └── screens/             # auth, onboarding, home, wardrobe, outfit,
 │                            # calendar, analytics, notifications, profile
 ├── assets/images/
-├── docs/screenshots/        # images used in this README
 └── pubspec.yaml
 ```
 
@@ -172,12 +170,21 @@ stylemate/
 ### Prerequisites
 - Flutter SDK (stable) and an Android phone with USB debugging, or an emulator
 - A Google Gemini API key from [Google AI Studio](https://aistudio.google.com)
-- A Railway account (to host the backend)
+- A Render account (to host the backend)
 
-### 1. Deploy the backend (Railway)
+### 1. Deploy the backend (Render)
 1. Push this repository to GitHub.
-2. On Railway choose **New Project, Deploy from GitHub repo**, select this repository and set **Root Directory** to `backend`.
-3. Add these variables:
+2. On Render choose **New +, Web Service**, connect the repository and use these settings:
+
+   | Setting | Value |
+   |---|---|
+   | Root Directory | `backend` |
+   | Runtime | Python 3 |
+   | Build Command | `pip install -r requirements.txt` |
+   | Start Command | `uvicorn main:app --host 0.0.0.0 --port $PORT` |
+   | Instance Type | Free |
+
+3. Add these environment variables:
 
    | Variable | Value |
    |---|---|
@@ -185,8 +192,7 @@ stylemate/
    | `APP_TOKEN` | a long random string (the app sends the same value) |
    | `GEMINI_MODEL` | optional, default `gemini-3.5-flash-lite` |
 
-4. Under Settings, Networking, click **Generate Domain**.
-5. Open `<your-url>/health`. You should see `"status":"ok"` and `"gemini_key_configured":true`.
+4. When the service shows **Live**, open `<your-url>/health`. You should see `"status":"ok"` and `"gemini_key_configured":true`.
 
 Endpoints: `GET /health`, and `POST /generate` (header `x-app-token`, body is a Gemini `generateContent` request).
 
@@ -200,8 +206,8 @@ copy lib\config\api_config.example.dart lib\config\api_config.dart     # macOS/L
 ```
 Edit `lib/config/api_config.dart`:
 ```dart
-const String aiBackendUrl = 'https://your-service.up.railway.app';
-const String aiAppToken = 'the same APP_TOKEN you set on Railway';
+const String aiBackendUrl = 'https://your-service.onrender.com';
+const String aiAppToken = 'the same APP_TOKEN you set on Render';
 ```
 Then run:
 ```bash
@@ -209,7 +215,7 @@ flutter run
 ```
 `api_config.dart` is git-ignored so your token is never committed.
 
-### 3. Build an APK
+### 3. Build an APK (optional)
 Add `<uses-permission android:name="android.permission.INTERNET"/>` to
 `android/app/src/main/AndroidManifest.xml` (above `<application`), because release builds have no internet access without it. Then:
 ```bash
@@ -235,7 +241,8 @@ Beige is also used on the splash, login and sign-up screens, and again after log
 ## Known limitations
 
 - Wardrobe data and accounts are stored on the device only (no cloud sync). The prototype stores passwords locally without hashing, and the forgot-password flow is simulated.
-- The backend is protected by one shared app token that ships inside the APK. This limits casual misuse but is not per-user authentication.
+- The backend is protected by one shared app token that ships inside the app. This limits casual misuse but is not per-user authentication.
+- The free Render service sleeps after 15 minutes idle, so the first AI request after a pause is slow.
 - The free Gemini tier is rate limited; heavy use can return HTTP 429 until the quota resets.
 - Saved items cannot be edited yet (delete and re-add).
 - AI tags can occasionally be wrong, which is why a review step exists.
