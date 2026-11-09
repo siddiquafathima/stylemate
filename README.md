@@ -251,6 +251,10 @@ Beige is also used on the splash, login and sign-up screens, and again after log
 - Built and tested on Android only; no iOS build.
 - No formal accuracy measurement of the AI tagging has been done yet; testing so far is manual on a physical device.
 
+## Review 
+
+https://drive.google.com/drive/folders/1gx_YEh63KHyVe0FPwLur7qKv6c8aoMkL
+
 ## Roadmap
 
 - Firebase Authentication and Firestore for secure accounts and multi-device sync
